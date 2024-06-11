@@ -1,0 +1,21 @@
+{
+  "name": "img-to-dir",
+  "version": "1.0.0",
+  "description": "Organize images to Synology Photos style.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node test.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "shinich39 <shinich39@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "fluent-ffmpeg": "^2.1.3",
+    "moment": "^2.30.1"
+  }
+}
