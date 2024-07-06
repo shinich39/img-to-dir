@@ -5,7 +5,6 @@ import fs from "fs";
 import exifr from "exifr";
 import moment from "moment";
 import ffmpeg from "fluent-ffmpeg";
-import util from "./libs/util.js";
 
 function chkDir(p) {
   if (!fs.existsSync(p)) {
@@ -24,7 +23,6 @@ function getMetadataFromVideo(srcPath) {
     });
   });
 }
-
 
 function copy(filePath, dirPath) {
   let filename = path.basename(filePath);

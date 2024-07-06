@@ -1,16 +1,12 @@
 # img-to-dir
 
-Organize images to Synology Photos style.
+Organize images to Synology Photos Style.
 
 Supported image types: jpeg, jpg, png, heic, heif, tiff, avif
 
 Supported video types: mp4, mov
 
-Directory structure:
-
-- year
-  - month
-    - file
+Synology Photos Style:
 
 - 2024
   - 01
@@ -23,21 +19,19 @@ Directory structure:
 
 ## Requirements
 
-- NodeJS
+- nodejs
 
 ## Options
 
 - ffmpeg (For video, Need to setup environment variables)
 
-## Installation
+## Usage
 
 ```console
 git clone https://github.com/shinich39/img-to-dir.git
 cd ./img-to-dir
 npm install
 ```
-
-## Usage
 
 1. Put images or directories to "/img-to-dir/input".
 2. Enter "npm start" in terminal.
